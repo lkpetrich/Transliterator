@@ -3,30 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CACA7FA4243107690057283F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA7FA3243107690057283F /* AppDelegate.swift */; };
-		CACA7FA6243107AD0057283F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACA7FA5243107AD0057283F /* Assets.xcassets */; };
-		CACA7FA9243107AD0057283F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACA7FA7243107AD0057283F /* MainMenu.xib */; };
-		CACA7FB724310A5E0057283F /* TLWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA7FB524310A5E0057283F /* TLWindow.swift */; };
-		CACA7FB824310A5E0057283F /* TLWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACA7FB624310A5E0057283F /* TLWindow.xib */; };
+		CAC182E628F4AFAB00C24049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC182E528F4AFAB00C24049 /* AppDelegate.swift */; };
+		CAC182E828F4AFAF00C24049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC182E728F4AFAF00C24049 /* Assets.xcassets */; };
+		CAC182EB28F4AFAF00C24049 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC182E928F4AFAF00C24049 /* MainMenu.xib */; };
+		CAC182F428F4B12C00C24049 /* TLWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC182F228F4B12C00C24049 /* TLWindow.swift */; };
+		CAC182F528F4B12C00C24049 /* TLWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC182F328F4B12C00C24049 /* TLWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CACA7FA0243107690057283F /* Transliterator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transliterator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CACA7FA3243107690057283F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CACA7FA5243107AD0057283F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CACA7FA8243107AD0057283F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		CACA7FAA243107AD0057283F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CACA7FAB243107AD0057283F /* Transliterator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Transliterator.entitlements; sourceTree = "<group>"; };
-		CACA7FB524310A5E0057283F /* TLWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLWindow.swift; sourceTree = "<group>"; };
-		CACA7FB624310A5E0057283F /* TLWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLWindow.xib; sourceTree = "<group>"; };
+		CAC182E228F4AFAB00C24049 /* Transliterator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transliterator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC182E528F4AFAB00C24049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAC182E728F4AFAF00C24049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC182EA28F4AFAF00C24049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CAC182EC28F4AFAF00C24049 /* Transliterator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Transliterator.entitlements; sourceTree = "<group>"; };
+		CAC182F228F4B12C00C24049 /* TLWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLWindow.swift; sourceTree = "<group>"; };
+		CAC182F328F4B12C00C24049 /* TLWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CACA7F9D243107680057283F /* Frameworks */ = {
+		CAC182DF28F4AFAB00C24049 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,32 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CACA7F97243107680057283F = {
+		CAC182D928F4AFAB00C24049 = {
 			isa = PBXGroup;
 			children = (
-				CACA7FA2243107690057283F /* Transliterator */,
-				CACA7FA1243107690057283F /* Products */,
+				CAC182E428F4AFAB00C24049 /* Transliterator */,
+				CAC182E328F4AFAB00C24049 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CACA7FA1243107690057283F /* Products */ = {
+		CAC182E328F4AFAB00C24049 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CACA7FA0243107690057283F /* Transliterator.app */,
+				CAC182E228F4AFAB00C24049 /* Transliterator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CACA7FA2243107690057283F /* Transliterator */ = {
+		CAC182E428F4AFAB00C24049 /* Transliterator */ = {
 			isa = PBXGroup;
 			children = (
-				CACA7FA3243107690057283F /* AppDelegate.swift */,
-				CACA7FA7243107AD0057283F /* MainMenu.xib */,
-				CACA7FB524310A5E0057283F /* TLWindow.swift */,
-				CACA7FB624310A5E0057283F /* TLWindow.xib */,
-				CACA7FA5243107AD0057283F /* Assets.xcassets */,
-				CACA7FAA243107AD0057283F /* Info.plist */,
-				CACA7FAB243107AD0057283F /* Transliterator.entitlements */,
+				CAC182E528F4AFAB00C24049 /* AppDelegate.swift */,
+				CAC182E928F4AFAF00C24049 /* MainMenu.xib */,
+				CAC182F228F4B12C00C24049 /* TLWindow.swift */,
+				CAC182F328F4B12C00C24049 /* TLWindow.xib */,
+				CAC182E728F4AFAF00C24049 /* Assets.xcassets */,
+				CAC182EC28F4AFAF00C24049 /* Transliterator.entitlements */,
 			);
 			path = Transliterator;
 			sourceTree = "<group>";
@@ -69,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CACA7F9F243107680057283F /* Transliterator */ = {
+		CAC182E128F4AFAB00C24049 /* Transliterator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CACA7FAE243107AD0057283F /* Build configuration list for PBXNativeTarget "Transliterator" */;
+			buildConfigurationList = CAC182EF28F4AFAF00C24049 /* Build configuration list for PBXNativeTarget "Transliterator" */;
 			buildPhases = (
-				CACA7F9C243107680057283F /* Sources */,
-				CACA7F9D243107680057283F /* Frameworks */,
-				CACA7F9E243107680057283F /* Resources */,
+				CAC182DE28F4AFAB00C24049 /* Sources */,
+				CAC182DF28F4AFAB00C24049 /* Frameworks */,
+				CAC182E028F4AFAB00C24049 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -83,72 +81,72 @@
 			);
 			name = Transliterator;
 			productName = Transliterator;
-			productReference = CACA7FA0243107690057283F /* Transliterator.app */;
+			productReference = CAC182E228F4AFAB00C24049 /* Transliterator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CACA7F98243107680057283F /* Project object */ = {
+		CAC182DA28F4AFAB00C24049 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
-				ORGANIZATIONNAME = "Loren Petrich";
 				TargetAttributes = {
-					CACA7F9F243107680057283F = {
-						CreatedOnToolsVersion = 11.4;
+					CAC182E128F4AFAB00C24049 = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = CACA7F9B243107680057283F /* Build configuration list for PBXProject "Transliterator" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = CAC182DD28F4AFAB00C24049 /* Build configuration list for PBXProject "Transliterator" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CACA7F97243107680057283F;
-			productRefGroup = CACA7FA1243107690057283F /* Products */;
+			mainGroup = CAC182D928F4AFAB00C24049;
+			productRefGroup = CAC182E328F4AFAB00C24049 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CACA7F9F243107680057283F /* Transliterator */,
+				CAC182E128F4AFAB00C24049 /* Transliterator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CACA7F9E243107680057283F /* Resources */ = {
+		CAC182E028F4AFAB00C24049 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACA7FA6243107AD0057283F /* Assets.xcassets in Resources */,
-				CACA7FB824310A5E0057283F /* TLWindow.xib in Resources */,
-				CACA7FA9243107AD0057283F /* MainMenu.xib in Resources */,
+				CAC182E828F4AFAF00C24049 /* Assets.xcassets in Resources */,
+				CAC182F528F4B12C00C24049 /* TLWindow.xib in Resources */,
+				CAC182EB28F4AFAF00C24049 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CACA7F9C243107680057283F /* Sources */ = {
+		CAC182DE28F4AFAB00C24049 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACA7FA4243107690057283F /* AppDelegate.swift in Sources */,
-				CACA7FB724310A5E0057283F /* TLWindow.swift in Sources */,
+				CAC182E628F4AFAB00C24049 /* AppDelegate.swift in Sources */,
+				CAC182F428F4B12C00C24049 /* TLWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CACA7FA7243107AD0057283F /* MainMenu.xib */ = {
+		CAC182E928F4AFAF00C24049 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CACA7FA8243107AD0057283F /* Base */,
+				CAC182EA28F4AFAF00C24049 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -156,14 +154,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CACA7FAC243107AD0057283F /* Debug */ = {
+		CAC182ED28F4AFAF00C24049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -190,7 +187,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -208,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -218,14 +214,13 @@
 			};
 			name = Debug;
 		};
-		CACA7FAD243107AD0057283F /* Release */ = {
+		CAC182EE28F4AFAF00C24049 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -252,7 +247,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -264,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -273,46 +267,52 @@
 			};
 			name = Release;
 		};
-		CACA7FAF243107AD0057283F /* Debug */ = {
+		CAC182F028F4AFAF00C24049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Transliterator/Transliterator.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Transliterator/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lpetrich.Transliterator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		CACA7FB0243107AD0057283F /* Release */ = {
+		CAC182F128F4AFAF00C24049 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Transliterator/Transliterator.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Transliterator/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lpetrich.Transliterator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CACA7F9B243107680057283F /* Build configuration list for PBXProject "Transliterator" */ = {
+		CAC182DD28F4AFAB00C24049 /* Build configuration list for PBXProject "Transliterator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACA7FAC243107AD0057283F /* Debug */,
-				CACA7FAD243107AD0057283F /* Release */,
+				CAC182ED28F4AFAF00C24049 /* Debug */,
+				CAC182EE28F4AFAF00C24049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CACA7FAE243107AD0057283F /* Build configuration list for PBXNativeTarget "Transliterator" */ = {
+		CAC182EF28F4AFAF00C24049 /* Build configuration list for PBXNativeTarget "Transliterator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACA7FAF243107AD0057283F /* Debug */,
-				CACA7FB0243107AD0057283F /* Release */,
+				CAC182F028F4AFAF00C24049 /* Debug */,
+				CAC182F128F4AFAF00C24049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CACA7F98243107680057283F /* Project object */;
+	rootObject = CAC182DA28F4AFAB00C24049 /* Project object */;
 }
