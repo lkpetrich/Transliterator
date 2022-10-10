@@ -11,8 +11,8 @@ class TLWindow: NSWindowController {
     
     var CharTrans = [String:String]()
     
-    @IBOutlet weak var InputText: NSTextField!
-    @IBOutlet weak var OutputText: NSTextField!
+    @IBOutlet var InputText: NSTextField!
+    @IBOutlet var OutputText: NSTextField!
     
     override var windowNibName: String? {
         return "TLWindow"
